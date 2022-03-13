@@ -1,5 +1,8 @@
 	import requests, shutil, os, re, bs4, sys, json, time, platform ,random, datetime, subprocess, logging, base64
 	import hmac, hashlib, urllib, stdiomask, urllib.request, uuid
+        import rich
+        from rich.markdown import Markdown
+        from rich.console import Console
 	from concurrent.futures import ThreadPoolExecutor
 	from bs4 import BeautifulSoup as parser
 	from threading import (Thread, Event)
@@ -16,4 +19,3 @@ Hj =  '\x1b[1;92m'
 
 	play = rich.markdown.Markdown(tawa, style='green')
 
-print 'HENGKER KW RESET HP JARAK JAUH'
